@@ -3,40 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portafolio Susana Soto</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo">Portafolio</a>
+        <i class='bx bx-menu id="menu"'></i>
+        
+     <nav class="navbar">
+        <a href="#inicio"><strong>Inicio</strong></a>
+        <a href="#perfil"><strong>Perfil</strong></a>
+        <a href="#experiencia"><strong>Experiencia</strong></a>
+        <a href="#contacto"><strong>Contacto</strong></a>
+     </nav>   
+    </header>
+
+    <section class="inicio" id="inicio">
+        <div class="inicio-content">
+            <h3>Hola, soy</h3>
+            <h1>Susana Soto</h1>
+            <h3>Y me desarrollo como <span>Data Scientist</span></h3>
+            <p>A lo largo de mi carrera he tomado muchos desafios, convertirme en Data Scientist ha sido el más satisfactorio de conseguir gracias a todos los conocimientos que adquirí y todos los retos a los que me tuve que enfrentar a lo largo del proceso.
+            </p>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/susanasoto0916/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Susana-Soto"><i class='bx bxl-github' ></i></a>
+                <a href="susoto0916@gmail.com"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <a href="#" class="btn">Descargar CV</a>
+         </div>
+         <div class="inicio-img"> 
+            <img src="./img/F1.jpg" alt="">
+         </div>
+    </section>
+
+    <section class="perfil" id="perfil">
+        <div class="perfil-img">
+            <img src="img/F2.png" alt="">
+        </div>
+
+        <div class="perfil-conte">
+            <h2 class="perf"> Sobre mi perfil, </h2><h3> <strong> Data Scientist</strong>  y Dasarrolladora Java FullStack</h3>
+            <p>Determinada, perseverante, analítica, colaborativa, organizada, enfocada a resultados.</p>
+            <a href="#" class="btn">Conoce Más</a>
+         </div>
+    </section>
+
+    <section class="experiencia" id="experiencia">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 class="academia" id="academia"> Mi Experiencia</h2>
+
+        <div class="expero-conte">
+        <div class="esfm" id="esfm">
+            <img src="img/Estadistica.png" alt="">
+            <div class="experiencia-porta">
+                <h4>Matemáticas y estadística</h4>
+                <p>Utilizo medidas estadísticas, nivel de confianza y pruebas de hipótesis en análisis descriptivo e inferencial en un conjunto de datos. Realizo análisis exploratorio de datos y de esta forma tener un mejor entendimiento de los mismos.</p>
+            </div>
+        </div>
+        <div class="esfm" id="esfm">
+            <img src="img/Data.png" alt="">
+            <div class="experiencia-porta">
+                <h4>Data Scientist</h4>
+                <p>Creación y Diseño de programas en lenguaje Python desarrollados para extraer información valiosa de los datos. Aplicación de herramientas como Tableu y Power BI para crear narrativas visuales convincentes.</p>
+            </div>
+        </div>
+        <div class="esfm" id="esfm">
+            <img src="img/desarrollador.png" alt="">
+            <div class="experiencia-porta">
+                <h4>Desarrolladora Java FullStack</h4>
+                <p>Desarrollo colaborativo de página web e-commers, donde diseñe e implemente conocimientos en HTML,CSS y Javascript.</p>
+            </div>
+        </div>
+    </div>
+        
+    </section>
+
+    <section class="contacto" id="contacto"></section>
 
     
-    <div class="wrapper">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>Sü Soto</h2>
-                </div>
-                <ul class="menu">
-                <li ><a class="active" href="">Inicio</a></li>
-                <li><a href="">Perfil</a></li>
-                <li><a href="">Experiencia</a></li>
-                <li><a href="">Contacto</a></li>
-                </ul>
-            </nav>
-            <main class="main">
-                <div class="info-content">
-                    <h1> Soy Susana Soto</h1>
-                    <p> Analítica, resuelvo problemas eficientemente y propongo soluciones óptimas, con capacidad de mantener orden frente a grupo, liderando activamente y aprovechando al máximo el trabajo en equipo, busco constantemente mejorar y sigo aprendiedo de los desafios que se me presentan.</p>
-               
-                    <a download href="#"> 
-                        <button class="download-cv"> download CV </button>
-                    </a>
-    
-                </div>
-                <img src="./img/S.soto.jpg" alt="fotosusy" height="100px" width="200px" >
-            </main>
-        </div>
-        </header>
- 
 </body>
 </html>
