@@ -84,16 +84,38 @@
     <section class="contacto" id="contacto">
         <h2 class="contacto-ini"> Contacto!</h2>
 
-        <form action="#">
+        <form id="formContacto" action="#">
             <div class="inputbox">
-                <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Email">
+                <label for="txtNombre" class="input">Nombre</label>
+                                <input type="text" class="form-control" id="txtNombre" placeholder="Nombre"
+                                    name="txtNombre" required>
+                                
+                                <div id="alertValidacionesTextoNombre">
+                                    <p id="alertNombre"></p>
+                                </div>
+                                <label for="txtEmail" class="input">Correo electóronico</label>
+                                <input type="text" class="form-control" id="txtEmail" placeholder="tucorreo@dominio.com"
+                                    name="txtEmail" required>
+                                <div id="alertValidacionesTextoEmail">
+                                    <p id="alertEmail"></p>
+                                </div>
+                                <label for="txtPhone" class="input">Número telefónico</label>
+                                <input type="text" class="form-control" id="txtPhone"
+                                    placeholder="Número telefónico(10 dígitos)" name="txtPhone" required>
+                                
+                                <div id="alertValidacionesTextoPhone">
+                                    <p id="alertPhone"></p>
+                                </div>
+                                <label for="txtMensaje" class="input">Mensaje</label>
+                                    <textarea type="text" class="form-control" id="txtMensaje" placeholder="Mensaje"
+                                        name="txtMensaje" required></textarea>
+                                    
+                                    <div id="alertValidacionesTextoMensaje">
+                                        <p id="alertMensaje"></p>
+                                    </div>
             </div>
-            <div class="inputbox">
-                <input type="number" placeholder="Número de contacto">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa comentario"></textarea>
-            <input type="submit" value="Enviar mensaje" class="btn">
+            <button class="btn btn-primary btn-contacto" type="submit" id="btnEnviar"
+                            value="Send Email">Enviar</button>
         </form>
 
     </section>
